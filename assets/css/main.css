@@ -1,10 +1,11 @@
 .services {
-   display: nome;
+   display: none;
 }
 
 @media (min-width: 768px) {
    .services {
        position: relative;
+       display: bloco;
        z-index: 0;
        padding-bottom: 90px;
        background: linear-gradient(180deg, #3F0156 0%, rgba(63, 1, 86, 0.931579) 17.79%, rgba(63, 1, 86, 0.42) 75.96%, rgba(63, 1, 86, 0) 100%), #3F0156;
