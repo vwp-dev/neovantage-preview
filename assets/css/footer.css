@@ -154,8 +154,10 @@ footer .copyright a {
     font-weight: 500;
 }
 
-footer .copyright p:first-child::after {
-    content: '|';
-    margin-left: 6px;
-    margin-top: -4px;
+@media (min-width: 768px) {
+    footer .copyright p:first-child::after {
+         content: '|';
+         margin-left: 6px;
+         margin-top: -4px;
+    }
 }
