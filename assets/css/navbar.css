@@ -1,0 +1,37 @@
+.navbar {
+    background-color: #FFFFFF;
+    padding-top: 0;
+    padding-bottom: 0;
+    box-shadow: 0px 1px 6px rgba(35, 35, 26, 0.25);
+}
+
+.navbar-brand img {
+    width: 180px;
+    height: auto;
+    aspect-ratio: 1 / 0.40595;
+}
+
+@media (min-width: 992px) {
+    .navbar .navbar-nav {
+        margin-left: auto;
+        gap: 24px;
+    }
+}
+
+.navbar-nav .nav-link {
+    color: var(--primary-color);
+    padding: 4px 12px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media (min-width: 1200px) {
+    .navbar-nav .nav-link {
+        font-size: 14px;
+
+    }
+}
+
+.navbar-nav .nav-link.btn-primary {
+    padding: 4px 16px;
+}

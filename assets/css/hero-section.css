@@ -1,0 +1,68 @@
+header {
+    position: relative;
+    height: calc(0.52 * 100vw);
+    width: 100%;
+    max-height: 95vh;
+    background: linear-gradient(180deg, rgba(63, 1, 86, 0.8) 30.77%, rgba(63, 1, 86, 0.894444) 62.02%, rgba(63, 1, 86, 0.96) 93.75%, #3F0156 100%);
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: url(/neovantage-preview/assets/img/digitando-no-computador.webp) bottom / cover  no-repeat;
+}
+
+.hero-section {
+    padding-top: var(--navbar-height);
+}
+
+.hero-section, .hero-section .row {
+    height: 100%;
+}
+
+.hero-section .hero-section__content {
+    max-width: 390px;
+}
+
+.hero-section h1, .hero-section p {
+    color: var(--light-color);
+}
+
+.hero-section .btn-primary {
+    margin-top: 24px;
+    background-color: var(--primary-color-50);
+}
+
+.hero-section__decoration {
+    position: absolute;
+    width: 60%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.3;
+    transform: translateX(-60%) translateY(-14%);
+}
+
+.hero-section__decoration div {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    transform: rotate(45deg);
+    border: 2px solid var(--extra-light-color);
+}
+
+.hero-section__decoration div:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-8%) rotate(45deg);
+}
+
+.hero-section__decoration div:nth-child(3) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-16%) rotate(45deg);
+}
