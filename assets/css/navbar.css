@@ -6,15 +6,36 @@
 }
 
 .navbar-brand img {
-    width: 180px;
+    width: 130px;
     height: auto;
     aspect-ratio: 1 / 0.40595;
 }
 
 @media (min-width: 992px) {
+    .navbar-brand img {
+        width: 180px;
+    }
+}
+
+.navbar .navbar-nav {
+    margin-left: auto;
+}
+
+@media (min-width: 768px) {
     .navbar .navbar-nav {
-        margin-left: auto;
         gap: 24px;
+    }
+}
+
+
+.nav-item:not(:last-child) {
+    display: none;
+}
+
+
+@media (min-width: 992px) {
+    .nav-item:not(:last-child) {
+        display: block;
     }
 }
 
@@ -22,7 +43,7 @@
     color: var(--primary-color);
     padding: 4px 12px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 @media (min-width: 1200px) {
