@@ -400,7 +400,7 @@
 .lgpd ul li::before {
     content: '';
     position: absolute;
-    background: url(/assets/img/losangulo-icon.svg);
+    background: url(/neovantage-preview/assets/img/losangulo-icon.svg);
     background-position: center;
     background-size: contain;
     width: 18px;

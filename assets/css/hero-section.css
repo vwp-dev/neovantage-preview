@@ -17,7 +17,7 @@ header::before {
     position: absolute;
     z-index: -1;
     inset: 0;
-    background: url(assets/img/digitando-no-computador.webp) bottom / cover  no-repeat;
+    background: url(/neovantage-preview/assets/img/digitando-no-computador.webp) bottom / cover  no-repeat;
 }
 
 .hero-section {
