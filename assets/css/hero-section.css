@@ -17,13 +17,18 @@ header::before {
     position: absolute;
     z-index: -1;
     inset: 0;
-    background: url(/neovantage-preview/assets/img/digitando-no-computador.webp) bottom / cover  no-repeat;
+    background: url(/assets/img/digitando-no-computador.webp) bottom / cover  no-repeat;
 }
 
 .hero-section {
-    margin-top: var(--navbar-height-mobile);
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+    .hero-section {
+        margin-top: var(--navbar-height-mobile);
+    }
 }
 
 @media (min-width: 992px) {
@@ -47,7 +52,6 @@ header::before {
         max-width: 390px;
     }
 }
-
 
 .hero-section h1, .hero-section p {
     color: var(--light-color);
